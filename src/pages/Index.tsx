@@ -31,8 +31,8 @@ export default function Index() {
 
     notify.promise(promise, {
       loading: 'Criando evento...',
-      success: 'Evento criado com sucesso',
-      error: 'Erro ao criar evento'
+      success: 'Evento criado com sucesso.',
+      error: 'Erro ao criar evento.'
     })
   }
 
