@@ -5,7 +5,9 @@ export default function Index() {
   async function handleCreate() {
     const promise = createAppointment({
       name: 'Consulta João',
-      date: '2025-01-10'
+      email: 'joao@email.com',
+      date: '2025-01-10',
+      time: '14:00'
     })
 
     notify.promise(promise, {
