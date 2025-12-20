@@ -13,7 +13,8 @@ type CreateAppointmentPayload = {
 export async function createAppointment(
   payload: CreateAppointmentPayload
 ) {
-  const response = await fetch(`${API_URL}/appointments`, {
+  const response = await fetch(`https://sisagenda-gas-proxy.leanmarqs.workers.dev/appointments`, {
+  /* const response = await fetch(`${API_URL}/appointments`, { */
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
